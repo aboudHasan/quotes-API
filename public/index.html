@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <button id="get-quotes">Get Quotes</button>
+    <button id="get-random-quote">Get Random Quote</button>
+
+    <form id="quoteForm">
+      <label for="author">Author: </label>
+      <input type="text" id="author" name="author" />
+
+      <label for="quote">Quote: </label>
+      <input type="text" id="quote" name="quote" />
+
+      <button type="submit">Submit Quote</button>
+    </form>
+
+    <form id="updateQuote">
+      <label for="newauthor">Author: </label>
+      <input type="text" id="newAuthor" name="newAuthor" />
+
+      <label for="quote">Quote: </label>
+      <input type="text" id="newQuote" name="newQuote" />
+
+      <label for="newID">ID: </label>
+      <input type="text" id="newID" name="newID" />
+
+      <button type="submit">Update Quote</button>
+    </form>
+
+    <label for="id-input">Search by ID: </label>
+    <input type="text" id="id-input" name="id-input" />
+    <button id="filter-id">Get Quote</button>
+    <button id="delete-id">Delete Quote</button>
+
+    <label for="author-input">Search by Author: </label>
+    <input type="text" id="author-input" name="author-input" />
+    <button id="filter-author">Get Quote</button>
+
+    <div id="output"></div>
+  </body>
+</html>
